@@ -4,9 +4,9 @@ import cx_Oracle
 
 try:
     connection=cx_Oracle.connect(
-        user='LINIX',
-        password= 'LNXPROD2022',
-        dsn= '10.180.131.2:1521/LINIX',
+        user='xxx',
+        password= 'xxxx',
+        dsn= 'xx.xx.x1.2:1521/LINIX',
         encoding = 'UTF-8'
     )
     print ('Conectado a Oracle Database',connection.version)
