@@ -19,7 +19,7 @@ class Config (object):
     MAIL_USERNAME = 'notificacion@cootep.com.co' # funciona con MAIL_SERVER = 'mail.cootep.com.co'
     MAIL_DEFAULT_SENDER = 'Servicio de notificacion', MAIL_USERNAME # configurar el alias
     MAIL_PASSWORD = ('hxbfzqhghlflnrqo')
-    #MAIL_SERVER = 'smtp.gmail.com' # funciona con MAIL_USERNAME = 'cootepptyo@gmail.com'  #'smtp-mail.outlook.com' # funciono con el correo hotmail
+    
     #MAIL_USERNAME = 'cootepptyo@gmail.com' #funciona con MAIL_SERVER = 'smtp.gmail.com'
     #MAIL_SERVER = 'smtp.office365.com'
     
@@ -44,5 +44,5 @@ class DevelopmentConfig(Config):
     MYSQL_PASSWORD = 'Cootep2023!'
     MYSQL_DB = 'convenios1'
     #oracle
-    #connection = cx_Oracle.connect(user='LINIX', password= 'LNXPROD2022', dsn= '10.180.131.2:1521/LINIX', encoding = 'UTF-8')
-    connection = oracledb.connect(user='LINIX', password= 'LNXPROD2022', dsn= '10.180.131.2:1521/LINIX', encoding = 'UTF-8')
+    #connection = cx_Oracle.connect(user='', password= '', dsn= 'xx.x.x.x:1521/LINIX', encoding = 'UTF-8')
+    connection = oracledb.connect(user='', password= '', dsn= 'xx.xx.x.2:1521/LINIX', encoding = 'UTF-8')
